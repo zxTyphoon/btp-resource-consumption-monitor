@@ -252,11 +252,7 @@ resources:
     type: org.cloudfoundry.managed-service
     parameters:
       service: jobscheduler
-      service-plan: standard
-      config:
-        enable-xsuaa-support: true
-      service-keys:
-        - name: btprc-scheduler-key
+      service-plan: lite
 
   - name: btprc-notif
     type: org.cloudfoundry.managed-service

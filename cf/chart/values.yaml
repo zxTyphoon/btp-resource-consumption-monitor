@@ -100,7 +100,7 @@ db:
 
 scheduler:
   serviceOfferingName: jobscheduler
-  servicePlanName: standard
+  servicePlanName: lite
   fullnameOverride: btprc-scheduler
   parameters:
     enable-xsuaa-support: true
