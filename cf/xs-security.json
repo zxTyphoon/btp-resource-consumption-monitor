@@ -1,13 +1,6 @@
 {
   "scopes": [
     {
-      "name": "$XSAPPNAME.JOBSCHEDULER",
-      "description": "Job Scheduler Scope",
-      "grant-as-authority-to-apps": [
-        "$XSSERVICENAME(btprc-scheduler)"
-      ]
-    },
-    {
       "name": "$XSAPPNAME.Viewer",
       "description": "Viewer"
     }
